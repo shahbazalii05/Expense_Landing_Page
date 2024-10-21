@@ -15,8 +15,10 @@ Welcome to the **Expense Landing Page** project! This site is built using **HTML
 - **JavaScript** for interactivity and dynamic content updates.
 
 ## Desktop view
+![Document-10-21-2024_02_11_PM](https://github.com/user-attachments/assets/785566a3-5770-43b7-ac7c-23d35fe62e8e)
 
 ## Mobile view
+![Document-10-21-2024_02_12_PM](https://github.com/user-attachments/assets/92f6075a-feeb-465f-86bf-ace218115caa)
 
 
 
