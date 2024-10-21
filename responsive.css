@@ -1,0 +1,150 @@
+@media (max-width: 1266px) {
+    .tipbutton{
+        padding: 15px 50px;
+    }
+}
+
+@media (max-width: 1230px) {
+
+    #stats{
+        display: none;
+    }
+
+    .cright h1{
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width: 1185px) {   
+    .tipbutton{
+        padding: 15px 30px;
+    }
+
+    .tips p{
+        font-size: 14px;
+    }
+
+    .tips span{
+        font-size: 10px;
+    }
+
+    .cright h1{
+        font-size: 13px;
+    }
+
+    
+    .right-stats p{
+    font-size: 11px;
+    }
+
+    .right-stats span{
+    font-size: 9px;
+    }
+}
+
+@media (max-width: 1100px) {   
+     .cright{
+        width: 100%;
+        padding: 35px 50px;
+    } 
+
+    .rsin{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .cright h1{
+        text-align: center;
+        margin: 10px auto;
+        font-size: 28px;
+    }
+
+    .box{
+        display: none;
+    }
+
+    .content{
+        flex-direction: column;
+    }
+
+    .cleft{
+        width: 80%;
+    } 
+    .right-stats{
+        width: 40%;
+        margin: 0 20px 20px 0;
+    }
+}
+
+
+@media (max-width: 820px) {   
+    .slidebar{
+        display: none;
+    }
+
+    .content{
+        background-color: #FFFFFF;
+        height: 100%;
+        width: 100vw;
+        border-radius: 0;
+        margin: 0 ;
+        display: flex;
+        justify-content: space-between;
+        overflow: hidden;
+    }
+
+    .cleft{
+        width: 70%;
+        margin: 40px auto 0;
+    }
+
+    .rslidebar{
+        display: block ;
+    }
+
+
+}
+
+@media (max-width: 650px) {   
+    .title h1 {
+        font-size: 23px;
+    }
+
+    .title p{
+    font-size: 12px;
+    }
+    
+    .cart p{
+        font-size: 12px;
+        }
+
+    .cp{
+            font-size: 14px;
+        }
+
+        .content{
+            background-color: #FFFFFF;
+            height: 100%;
+            width: 100vw;
+            border-radius: 0;
+            margin: 0px;
+            display: flex;
+            justify-content: space-between;
+            overflow: hidden;
+        }
+    
+}
+
+@media (min-width: 822px) { 
+    #slider{
+        display: none !important;
+    }
+    .rpslidebar{
+        display: none;
+    }
+
+    .rslidebar{
+        display: none !important;
+    }
+}

@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+/* .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  } */
+
+body{
+    background: #101010;
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.slidebar{
+    height: 100%;
+    padding: 65px 0 0 80px;
+}
+
+#slider{
+    display: none;
+    height: 100%;
+    padding: 25px 40px 20px 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    border-top-right-radius : 20px;
+    border-bottom-right-radius : 20px;
+    z-index: 10;
+}
+
+
+.rpslidebar{
+    padding: 0 0 10px 0;
+    font-size: 1.5rem;
+    color: #F9FAFC;
+}
+
+.pimg{
+    position: relative;
+}
+
+#noti{
+    font-family: "poppins";
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #DC3434;
+    color: white;
+    position: absolute;
+    top: -10px;
+    right: 110px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.profile h2{
+    font-family: "poppins";
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 35px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+.profile p{
+    font-family: "poppins";
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 27px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.menu {
+    padding-top: 50px;
+    color: #FFFFFF;
+}
+
+.menu p{
+    font-family: "poppins";
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 35px;
+    text-align: left;
+    margin: 20px 0;
+    opacity: 50%;
+}
+
+.menu a{
+    font-family: "poppins";
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 35px;
+    text-align: left;
+    margin: 20px 0;
+    opacity: 50%;
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#a2{
+    opacity: 100%;
+}
+
+.content{
+    background-color: #FFFFFF;
+    height: 100%;
+    width: 70vw;
+    border-radius: 20px;
+    margin: 20px 0 20px 80px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.rslidebar{
+    display: none ;
+    padding: 20px 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 1.5rem;
+}
+
+.cleft{
+    width: 58%;
+    margin: 40px 0 0 80px;
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.title h1{
+    font-family: "poppins";
+font-size: 35px;
+font-weight: 600;
+line-height: 40px;
+text-align: left;
+}
+
+.title p{
+    font-family: "poppins";
+font-size: 14px;
+font-weight: 200;
+line-height: 24px;
+letter-spacing: 0.34px;
+text-align: left;
+color: #101010;
+}
+
+.ruser{
+    display: flex;
+    align-items: center;
+}
+
+.ruser .pic{
+    position: relative;
+    /* background-color: black;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border: 2px solid #FFFFFF; */
+    margin-left: -7px;
+}
+
+.ruser #pic1{
+    z-index: 3;
+}
+
+.ruser #pic2{
+    z-index: 2;
+}
+
+
+.ruser .add{
+    margin-left: 10px;
+    /* height: 35px;
+    width: 35px;
+    border-radius: 50%; */
+}
+
+#stats{
+    object-fit: cover;
+    height: auto;
+    width: 100%;
+}
+
+.items{
+    font-family: "poppins";
+    margin-top: 20px;
+    width: 100%;
+}
+
+.items .top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.items button{
+    font-weight: 900;
+    font-size: 17px;
+    color: #D8D8D8;
+    border: none;
+    background-color: transparent;
+}
+
+.items p{
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.30000001192092896px;
+    text-align: left;
+    font-weight: 500;
+}
+
+.cart{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+.cl{
+    display: flex;
+}
+
+.cart .logo{
+    margin-right: 10px;
+    object-fit: cover;
+}
+
+.cart h2{
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+text-align: left;
+}
+
+.cart p{
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0.5px;
+text-align: left;
+}
+
+.cp{
+    font-size: 16px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0.34285715222358704px;
+}
+
+.space{
+    margin: 70px 0;
+}
+
+.items .bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.cright{
+    font-family: "poppins";
+    width: 30%;
+    height: 100%;
+    background-color: #F9FAFC;
+    padding: 45px 20px;
+}
+
+.cright h1{
+   
+font-size: 17px;
+/* line-height: 30px; */
+letter-spacing: 0.3px;
+margin-bottom: 20px;
+}
+
+.right-stats{
+    width: 90%;
+    margin-bottom: 25px;
+}
+
+.right-stats .price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-stats .price p{
+font-size: 13px;
+font-weight: 500;
+line-height: 24px;
+
+}
+
+.right-stats .price p{
+font-size: 13px;
+font-weight: 400;
+line-height: 24px;
+ 
+}
+
+
+.pbar{
+    background-color: #ECEFF5;
+    border-radius: 20px;
+    height: 5px;
+    width: 100%;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.barin{
+    background-color: #31BA96;
+    height: 100%;
+    width: 35%;
+    border-radius: 20px;
+}
+
+.box{
+    margin-top: 90px;
+    display: flex;
+    align-items: last baseline;
+    /* position: relative; */
+}
+
+.tips{
+    width: 100%;
+    height: 260px;
+    padding: 0 20px;
+    background-color: #EDF0F6;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+.tipslogo{
+    position: relative;
+    top: -20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.tipslogo img{
+    object-fit: cover;
+    height: auto;
+}
+
+.tips p{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.tips span{
+    font-size: 12px;
+    font-weight: 400;
+    color: #404852;
+}
+
+.tipbutton{
+    padding: 15px 60px;
+    background-color: #101010;
+    ;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 13px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+}
